@@ -29,8 +29,6 @@ public class CredentialService {
 	   
 	     
 	      StringBuilder sb = new StringBuilder();
-	      
-	        // Creating a string using append() method
 	        for (int i = 0; i < password.length; i++) {
 	            sb.append(password[i]);
 	        }
